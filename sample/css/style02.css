@@ -11,12 +11,13 @@ img{
 header{
   position: fixed;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   display: flex;
   align-items: center;
   z-index: 100;
   top: 0;
+  color: white;
+  font-size: 30px;
 }
 
 #wave{
@@ -38,6 +39,7 @@ header{
   left: 20px;
   z-index: 100;
   cursor: pointer;
+  color: white;
 }
 
 #content{
@@ -45,10 +47,12 @@ header{
   margin: 100px auto;
   padding: 20px;
   max-width: 1000px;
+  color: white;
 }
 
+
+
 .set{
-  background-color: #ccc;
   min-height: 400px;
   margin-bottom: 40px;
 }
@@ -80,13 +84,4 @@ img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-#line{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: linear-gradient(to right, blue,red);
 }
